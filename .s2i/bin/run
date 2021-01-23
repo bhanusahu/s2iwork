@@ -1,3 +1,3 @@
 #!/bin/bash
-
-exec /usr/libexec/run
+echo "calling run brother " 
+exec /usr/libexec/s2i/run
