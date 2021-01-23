@@ -3,6 +3,6 @@
 echo "Before executing ........................................"
 
 /usr/libexec/s2i/assemble
-
+cp -f ./*.html ./
 
 echo " After ................................"
