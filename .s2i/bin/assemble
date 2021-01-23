@@ -4,5 +4,5 @@ echo "Before executing ........................................"
 
 /usr/libexec/s2i/assemble
 cp -f ./*.html ./
-
+echo " this is a new page" >./message.html
 echo " After ................................"
